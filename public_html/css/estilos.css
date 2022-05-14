@@ -1,0 +1,226 @@
+@import url("fonts/stylesheet.css");
+
+*{
+    font-family: "Roboto"
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+
+header{
+    background-color: #f5da42;
+}
+
+header img{
+    height: 75px;
+    margin-top: 20px;
+}
+
+header a{
+    color: #592411;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#cont{
+    margin: 15px 0px 15px 0px;
+    height: 430px;
+    background-image: url(../materiales/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#cont2{
+    margin: 15px 0px 15px 0px;
+    height: 430px;
+    background-image: url(../materiales/fondo1.jpg);
+    background-size: cover;
+    background-position: 60%;
+    background-attachment: fixed
+}
+
+#cont h1{
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+h1{
+    font-family: "Modak";
+    color: #fff;
+    font-size: 60px;
+}
+
+p{
+    color: #fff;
+}
+
+#Sabores{
+    margin-bottom: 15px;
+}
+
+#Sabores #title{
+    background-color: #c41a1a;
+    background-image: url(../materiales/bg-pattern.png);
+}
+
+#Sabores #title h1{
+    margin-top: 50px;
+}
+
+#Sabores #sabor1{
+    background-color: #c41a1a;
+    background-image: url(../materiales/bg-pattern.png);
+}
+
+#Sabores #sabor1 a{
+    color: #c41a1a;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#Sabores #sabor2{
+    background-color: #f5da42;
+}
+
+#Sabores #sabor2 a{
+    color: #f5da42;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#Sabores img{
+    height: 400px;
+    margin-top: 40px;
+}
+
+#Sabores a{
+    background-color: #fff;
+}
+
+#Productos{
+    margin-bottom: 45px;
+}
+
+#Productos p{
+    color: black;
+}
+
+#Productos img{
+    height: 400px;
+}
+
+#Productos h1{
+    color: #592411;
+    margin-top: 20px;
+}
+
+#Productos a{
+    color: #fff;
+    background-color: #592411;
+}
+
+#Productos #btn:hover{
+    color: #592411;
+    background-color: #fff;
+    border: 2px solid #592411;
+    line-height: 28px;
+}
+
+#Productos #btn{
+    color: #fff;
+    background-color: #592411;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer{
+    background-color: #592411;
+    color: #fff;
+    padding: 15px;
+}
+
+/* COMPLEMENTO */
+
+header a:hover{
+    background-color: #592411;
+    color: #fff;
+}
+
+#cont3{
+    margin: 15px 0px 15px 0px;
+    border-top:10px solid #c41a1a;
+    border-bottom:10px solid #c41a1a; 
+}
+#cont3 #fondo{
+    background-image: url(../materiales/rojo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+    height: 430px;
+}
+
+#cont3 img{
+    height: 400px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#ComprasRojo p{
+    color: black;
+}
+
+#ComprasRojo h1{
+    color: #c41a1a;
+    margin-bottom: 40px;
+}
+
+#ComprasRojo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#ComprasRojo #btn{
+    color: #fff;
+    background-color: #592411;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#ComprasRojo #btn:hover{
+    color: #592411;
+    background-color: #fff;
+    border: 2px solid #592411;
+    line-height: 28px;
+}
